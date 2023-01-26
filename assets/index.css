@@ -1,0 +1,47 @@
+html {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lessons_nav {
+    width: calc(100% - 60px);
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+}
+
+.link_to_lesson {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    font-weight: 800;
+    margin: 5px;
+}
+
+.download_link {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    font-weight: 800;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.flex_between {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}

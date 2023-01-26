@@ -1,0 +1,59 @@
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #191919;
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: skyblue;
+}
+
+b {
+    color: plum;
+}
+
+i {
+    color: orange;
+}
+
+.separateur {
+    background: white;
+    width: 30%;
+    height: 4px;
+    margin: 10px auto;
+}
+
+.classic_div {
+  width: 550px;
+  background-color: darkgray;
+  padding: 30px;
+  border: 5px solid red;
+  margin: auto;
+}
+
+.contenu h2 {
+  width: calc(550px + 70px);
+  margin: 20px auto 10px auto;
+}
+
+.contenu p {
+  width: calc(550px + 70px);
+  margin: 5px auto;
+  padding: 0;
+}
+
+.contenu ul, .contenu ol {
+  width: calc(550px + 60px);
+  margin: auto;
+}
+
+.contenu img {
+  width: calc(550px + 70px);
+  margin: 15px auto;
+  display: block;
+}
