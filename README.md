@@ -1,4 +1,2 @@
 # cours_html_css
-
-- liste
-- liste 2
+[lien vers la version en ligne](https://noahancolie.github.io/cours_html_css/)
