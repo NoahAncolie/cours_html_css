@@ -1,0 +1,17 @@
+.cheatsheet_navigation {
+    margin: 15px;
+}
+
+.cheatsheet_navigation a {
+    text-decoration: none;
+    color: darkgreen;
+    background: linear-gradient(to right, lightseagreen, lightseagreen);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: 0% 2px;
+}
+
+
+.cheatsheet_navigation a:hover {
+    background-size: 100% 2px;
+}

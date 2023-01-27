@@ -9,23 +9,23 @@
     <nav class="lessons_nav">
       <div class="flex_between">
         <h1>Cheatsheet HTML</h1>
-        <a href="./html_cheatsheet.html" class="download_link" download>Télécharger</a>
       </div>
       <a href="../index.html" class="link_to_lesson">Page Principale</a>
       <a href="../html/html_cheatsheet.html" class="link_to_lesson">Cheatsheet HTML</a>
     </nav>
   </header>
   <body>
-    <div id="divs" class="divs contenu">
+    <div class="article_container">
+      <div id="divs" class="divs contenu">
         <h2>
-            Structure d'un élément HTML <small>( la div )</small>
+            Structure d'un élément HTML
         </h2>
       <img
         src="https://s1.qwant.com/thumbr/0x380/0/6/33b734c5a2d54b06cfadb9971a582a804e51877b027fce42952733684f4977/css-box-model.png?u=https%3A%2F%2Fsabe.io%2Fclasses%2Fcss%2Fcss-box-model-padding-border-margin%2Fcss-box-model.png&q=0&b=1&p=0&a=0"
         alt="div example html css"
       />
       <p>
-        Les <b>div</b> ainsi que chaque élément html ont : 
+        Les ainsi que chaque élément html ont : 
         <ul>
             <li>Une marge (margin). <b>L'espace en dehors de la boite par rapport aux autres éléments.</b></li>
             <li>Une bordure (border). <b>Qui entoure la boite</b></li>
@@ -35,7 +35,7 @@
       </p>
       <br/>
       <div class="classic_div">
-        <p>Ceci est une DIV<br />Un élément de base HTML</p>
+        <p>Ceci est une DIV<br />Un élément HTML</p>
       </div>
       <p>
         Le <b>Margin</b> est l'espace sur les cotés.<br/>
@@ -60,34 +60,46 @@
         <p>
             <span id="ciblage_dom">
                 ⚠️ Le ciblage par nom est le plus général :<br/><br/>
-                p {<br/>
+                <div class="css_code">
+                  p {<br/>
                     &nbsp;&nbsp;color: green;<br/>
-                }<br/><br/>
+                }
+                </div>
+                <br/><br/>
                 Colorera tout le texte contenu dans des balises <b>p</b> en vert
             </span>
             <br/><br/>
             <span id="ciblage_class">
                 ⚠️⚠️ Par dessus le ciblage par nom se trouve le ciblage par class:<br/><br/>
-                .mon_texte_rouge {<br/>
+                <div class="css_code">
+                  .mon_texte_rouge {<br/>
                     &nbsp;&nbsp;color: red;<br/>
-                }<br/><br/>
+                }
+                </div>
+                <br/><br/>
                 Colorera tout le texte contenu dans des balises avec <b>class="mon_texte_rouge"</b> en rouge
             </span>
             <br/><br/>
             <span id="ciblage_class">
                 ⚠️⚠️⚠️ Et tout en haut de la pyramide se trouve le ciblage par ID:<br/><br/>
-                #mon_texte_bleu {<br/>
+                <div class="css_code">
+                  #mon_texte_bleu {<br/>
                     &nbsp;&nbsp;color: blue;<br/>
-                }<br/><br/>
+                }
+                </div>
+                <br/><br/>
                 Colorera tout le texte contenu dans des balises avec <b>id="mon_texte_bleu"</b> en bleu
             </span>
             <br/><br/>
             Notez qu'en CSS, les classes sont identifiés par un point et les id par une dièse (. #). <br/>
-            De plus, une règle css peut être mise en importance en ajoutant <b>!important</b> derrière la régle.
+            De plus, une règle css peut être mise en importance en ajoutant <i>!important</i> derrière la règle.
             <br/><br/>
-            .mon_texte_orange {<br/>
+            <div class="css_code">
+              .mon_texte_orange {<br/>
                 &nbsp;&nbsp;color: orange <i>!important</i>;<br/>
-            }<br/><br/>
+            }
+            </div>
+            <br/><br/>
         </p>
     </div>
     <div class="separateur"></div>
@@ -99,6 +111,7 @@
             <br/>
             <a href="https://htmlcheatsheet.com/css/">Cheatsheet CSS</a>
         </p>
+    </div>
     </div>
   </body>
   <footer>
